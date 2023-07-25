@@ -94,7 +94,7 @@ namespace vMenuClient
             MenuItem cleanVehicle = new MenuItem("Wash Vehicle", "Clean your vehicle.");
             MenuItem toggleEngine = new MenuItem("Toggle Engine On/Off", "Turn your engine on/off.");
             MenuItem setLicensePlateText = new MenuItem("Set License Plate Text", "Enter a custom license plate for your vehicle.");
-            MenuItem reduceDriftSuspension = new MenuItem("Reduce Drift Suspension", "Reduce the suspension of the vehicle to make it even lower to drift.~r~~h~This modification disable the original strAdvancedFlag of the car !!~s~~h~");
+            MenuItem reduceDriftSuspension = new MenuItem("Reduce Drift Suspension", "Reduce the suspension of the vehicle to make it even lower to drift. Use the option again to revert back to your original suspension. ~r~~h~This modification disables the original strAdvancedFlag of the vehicle!~s~~h~");
             MenuItem modMenuBtn = new MenuItem("Mod Menu", "Tune and customize your vehicle here.")
             {
                 Label = "→→→"
